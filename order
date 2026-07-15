@@ -1,1 +1,24 @@
+261507R vishist
+ <!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bubble tea bros</title>
+    <style>
+    
+    </style>
+</head>
+<h1><strong><style>
+        /* This targets your main title */
+        h1 {
+            text-align: center;  /* Puts it in the middle */
+            font-size: 50px;     /* Makes it big (adjust the number as needed) */
+            font-family: comic; /* Clean modern font style */
+            margin-top: 40px;    /* Adds space above the header */
+        }
+    </style></strong>
+Your cart</h1>
+
+</html>
