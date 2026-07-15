@@ -15,7 +15,7 @@
         h1 {
             text-align: center;  /* Puts it in the middle */
             font-size: 50px;     /* Makes it big (adjust the number as needed) */
-            font-family: comic; /* Clean modern font style */
+            font-family: 'Brush Script MT', cursive, sans-serif; /* Clean modern font style */
             margin-top: 40px;    /* Adds space above the header */
         }
     </style></strong>
