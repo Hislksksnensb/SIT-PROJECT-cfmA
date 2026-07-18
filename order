@@ -2,23 +2,19 @@
  <!DOCTYPE html>
 <html lang="en">
 
+<!--author-->261507R vishist
+ <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bubble tea bros</title>
-    <style>
-    
-    </style>
+    <title>Bakers Bastion</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<h1><strong><style>
-        /* This targets your main title */
-        h1 {
-            text-align: center;  /* Puts it in the middle */
-            font-size: 50px;     /* Makes it big (adjust the number as needed) */
-            font-family: 'Brush Script MT', cursive, sans-serif; /* Clean modern font style */
-            margin-top: 40px;    /* Adds space above the header */
-        }
-    </style></strong>
-Your cart</h1>
-
-</html>
+<body>
+<h2>Bakers Bastion order form</h2>
+<form>
+<label for="custname">your name</label>
+<input type="text" name="custname" id="custname" required>
+</form>
+</html>     
