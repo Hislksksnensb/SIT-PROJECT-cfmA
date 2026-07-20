@@ -1,20 +1,26 @@
 <!--author-->261507R vishist
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
-<!--author-->261507R vishist
- <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bakers Bastion</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<h2>Bakers Bastion order form</h2>
-<form>
-<label for="custname">your name</label>
-<input type="text" name="custname" id="custname" required>
-</form>
-</html>     
+    <h2>Bakers Bastion order form</h2>
+    <form>
+        <label for="custname">your name</label>
+        <input type="text" name="custname" id="custname" required>
+
+        <label for="order1">Your 1st order</label>
+        <input type="text" name="order1" id="order1" required>
+        <button>submit</button>
+        <p>slice size</p>
+        <label><input type="radio" name="size" value="1/6" checked="1/6" 
+        </label>
+    </form>
+
+</html> 
