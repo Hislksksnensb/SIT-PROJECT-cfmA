@@ -22,24 +22,29 @@
     <body>
         <h2>Bakers Bastion order form</h2>
         <form>
-
-            <label for="custname">your name</label>
-            <input type="text" name="custname" id="custname" required>
-
-            <label for="order1">Your 1st order</label>
-            <input type="text" name="order1" id="order1" required>
-           <div><label for="size">slice size</label>
-            <label><input type="radio" name="size" value="1/6" checked="1/6"> 1/6</label>
-            <label><input type="radio" name="size" value="1/2"> 1/2</label>
-            <label><input type="radio" name="size" value="whole"> whole</label></div>
-            <label for="order2">Your 2nd order</label>
-            <input type="text" name="order2" id="order2" required>
-            <p>slice size</p>
-            <label><input type="radio" name="size2" value="1/6" checked="1/6"> 1/6</label>
-            <label><input type="radio" name="size2" value="1/2"> 1/2</label>
-            <label><input type="radio" name="size2" value="whole"> whole</label>
-            <button>submit</button>
-
+            <div class="big ass box">
+                <div class="card">
+                    <label for="custname">your name:</label>
+                    <input type="text" name="custname" id="custname" required>
+                </div>
+                <div class="lol">
+                    <label for="order1">Your 1st order:</label>
+                    <input type="text" name="order1" id="order1" required>
+                </div>
+                <div class="woo"><label for="order2">Your 2nd order:</label>
+                    <input type="text" name="order2" id="order2">
+                </div>
+                <div class="lols">
+                    <label for="order3">Your 3rd order:</label>
+                    <input type="text" name="order3" id="order3" >
+                </div>
+                <div class="woos"><label for="order4">Your 4th order:</label>
+                    <input type="text" name="order4" id="order4">
+                </div>
+*indicate nil if not applicable*
+                <button>submit</button>
+              
         </form>
+        </div>
 
 </html>
