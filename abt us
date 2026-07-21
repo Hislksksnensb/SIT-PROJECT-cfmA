@@ -10,6 +10,16 @@ gap: 40px;
 background-color:#FFF8EE ;
 padding: 20px }
 
-nav a{color:#2E6F40
-}
+nav a{color:#2E6F40; 
+text-decoration:none;
+padding:8px 15px;
+border-radius:8px;
+transition:0.3s;}
 
+nav a:hover{background-color:#2E6F40;
+color:#FFF8EE; }
+
+main{
+  max-width: 1000px;
+  margin: 0 auto;
+}
