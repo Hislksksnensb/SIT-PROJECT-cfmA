@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(to right, #7BB661 0%, #B8DFA8 50%, #CDE7C9 100%);
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: #FFF8EE;
+  padding: 20px;
+}
+
+nav a {
+  color: #2E6F40;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: #2E6F40;
+  color: #FFF8EE;
+}
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 8px;
+}
+
+.product {
+  background-color: #FFF8EE;
+}
+
+.text {
+  background-color: #5cd87f;
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  text-align: center;
+}
+
+.product-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
