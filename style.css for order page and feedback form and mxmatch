@@ -143,3 +143,95 @@ body {
   max-width: 1000px;       
   border-radius: 100px;       
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);}
+ 
+body {
+    background: linear-gradient(to right, #7BB661 0%, #B8DFA8 50%, #CDE7C9 100%);
+    font-size: 16px;
+    margin: 0 20px;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Headings */
+h1 {
+    font-size: 60px;
+    color: #1b4324; /* Dark green for readability */
+    margin-top: 10px;
+    padding: 0 100px;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 36px;
+    color: #2E6F40; /* Matched to navigation green */
+    margin-top: 40px;
+}
+
+/* Navigation Links Bar */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: #FFF8EE;
+    padding: 20px;
+}
+
+nav a {
+    color: #2E6F40;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #2E6F40;
+    color: #FFF8EE;
+}
+
+/* Navigation List Container */
+nav ul {
+    background-color: #2E6F40; /* Matched green instead of dark blue */
+    padding: 10px;
+    list-style-type: none;
+}
+
+/* Containers and Layouts */
+.big.ass.box {
+    background-color: #FFF8EE; /* Soft off-white to contrast the green background */
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;       
+    border-radius: 20px;       
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.boxs {
+    font-size: 20px;
+    justify-content: center;
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;       
+    border-radius: 20px;       
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    background-color: #FFF8EE; /* Added background so text stands out */
+}
+
+.divpop {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    color: #2E6F40; /* Fixed from blueviolet */
+    margin-top: 10px;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;       
+    border-radius: 100px;       
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    background-color: #FFF8EE; /* Added background so text stands out */
+}
