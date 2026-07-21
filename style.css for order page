@@ -124,9 +124,21 @@ body {
     background-color: linear-gradient(to right, #7BB661 0%, #B8DFA8 50%, #CDE7C9 100%);
     margin-bottom: 10px;
     font-weight: bold;}
-   .big.ass.boxf
-   {background-color:#b5d59a; 
-  padding: 30px;
+   .boxs
+   {font-size: 20px;
+    justify-content: center;
+ padding: 30px;
+  width: 100%;
+  max-width: 500px;       
+  border-radius: 20px;       
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);}
+  .divpop{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: blueviolet;
+    margin-top: 10px;
+    justify-content: center;
+  }
   width: 100%;
   max-width: 1000px;       
   border-radius: 100px;       
