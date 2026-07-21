@@ -1,57 +1,133 @@
-body {background: linear-gradient(to right,#7BB661 0%,#B8DFA8 50%,#CDE7C9 100%);
-  font-size: 16px;
-  margin: 0;
-  padding: 0;
-text-align: center;}
+body {
+    background: linear-gradient(to right, #7BB661 0%, #B8DFA8 50%, #CDE7C9 100%);
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
-nav{display:flex;
-justify-content:center;
-gap: 40px;
-background-color:#FFF8EE ;
-padding: 20px }
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: #FFF8EE;
+    padding: 20px
+}
 
-nav a{color:#2E6F40; 
-text-decoration:none;
-padding:8px 15px;
-border-radius:8px;
-transition:0.3s;}
+nav a {
+    color: #2E6F40;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
 
-nav a:hover{background-color:#2E6F40;
-color:#FFF8EE; }
+nav a:hover {
+    background-color: #2E6F40;
+    color: #FFF8EE;
+}
 
-main{
-  max-width: 1000px;
-  margin: 0 auto;
+main {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 
-h1
-{font: size 60px;
-    color:rgb(0, 0, 0);
-    margin-top:10px;
-font-family: comic , sans-serif;
-padding: 0 100px;}
+h1 {
+    font: size 60px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    font-family: comic, sans-serif;
+    padding: 0 100px;
+}
+
 nav ul {
-list-style-type: none;
-background-color: hsl(221, 47%, 20%);
-padding: 10px;
-list-style-type: none
+    list-style-type: none;
+    background-color: hsl(221, 47%, 20%);
+    padding: 10px;
+    list-style-type: none
+}
 
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+    color: blueviolet;
+    margin-top: 40px;
 }
-h2
-{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:36px;
-    color:blueviolet;
-    margin-top:40px;
+
+body {
+    background: linear-gradient(to right, #7BB661 0%, #B8DFA8 50%, #CDE7C9 100%);
+    font-size: 16px;
+    margin: 0 20px;
+    padding: 0;
 }
-p3{margin-top:20px;
-    font-size:20px;
-    color:blueviolet;
+
+.card {
+    display: flex;
+
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    background-color: linear-gradient(to right, #7BB661 0%, #B8DFA8 50%, #CDE7C9 100%);
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
 }
-body{background: linear-gradient(to right,#7BB661 0%,#B8DFA8 50%,#CDE7C9 100%);
-  font-size: 16px;
-  margin: 0 20px;
-  padding: 0;}
-.display{display:flex;
-justify-content:center;
-gap: 40px;}
+
+.lol {
+    display: flex;
+    margin-left: 40px; 
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    font-size: 20px;
+    background-color: linear-gradient(to right, #7BB661 0%, #B8DFA8 50%, #CDE7C9 100%);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.woo {
+    display: flex;
+
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    font-size: 20px;
+    background-color: linear-gradient(to right, #7BB661 0%, #B8DFA8 50%, #CDE7C9 100%);
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+.big.ass.box {background-color:#b5d59a; 
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;       
+  border-radius: 20px;       
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+
+    
+}
+.woos{
+    display: flex;
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    font-size: 20px;
+    background-color: linear-gradient(to right, #7BB661 0%, #B8DFA8 50%, #CDE7C9 100%);
+    margin-bottom: 10px;
+    font-weight: bold;}
+    .lols{
+    display: flex;
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    font-size: 20px;
+    background-color: linear-gradient(to right, #7BB661 0%, #B8DFA8 50%, #CDE7C9 100%);
+    margin-bottom: 10px;
+    font-weight: bold;}
+   .big.ass.boxf
+   {background-color:#b5d59a; 
+  padding: 30px;
+  width: 100%;
+  max-width: 1000px;       
+  border-radius: 100px;       
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);}
