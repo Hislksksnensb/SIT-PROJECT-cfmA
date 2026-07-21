@@ -6,21 +6,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bakers Bastion</title>
-    <link rel="stylesheet" href="style.css">
-</head>
 
 <body>
-    <h2>Bakers Bastion order form</h2>
-    <form>
-        <label for="custname">your name</label>
-        <input type="text" name="custname" id="custname" required>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="order.html">Order</a>
+        <a href="abt us.html">About Us</a>
+        <a href="products.html">Products</a>
+        <a href="contact us.html">Contact us</a>
+    </nav>
 
-        <label for="order1">Your 1st order</label>
-        <input type="text" name="order1" id="order1" required>
-        <button>submit</button>
-        <p>slice size</p>
-        <label><input type="radio" name="size" value="1/6" checked="1/6" 
-        </label>
-    </form>
+    <link rel="stylesheet" href="style.css">
+    </head>
 
-</html> 
+    <body>
+        <h2>Bakers Bastion order form</h2>
+        <form>
+
+            <label for="custname">your name</label>
+            <input type="text" name="custname" id="custname" required>
+
+            <label for="order1">Your 1st order</label>
+            <input type="text" name="order1" id="order1" required>
+           <div><label for="size">slice size</label>
+            <label><input type="radio" name="size" value="1/6" checked="1/6"> 1/6</label>
+            <label><input type="radio" name="size" value="1/2"> 1/2</label>
+            <label><input type="radio" name="size" value="whole"> whole</label></div>
+            <label for="order2">Your 2nd order</label>
+            <input type="text" name="order2" id="order2" required>
+            <p>slice size</p>
+            <label><input type="radio" name="size2" value="1/6" checked="1/6"> 1/6</label>
+            <label><input type="radio" name="size2" value="1/2"> 1/2</label>
+            <label><input type="radio" name="size2" value="whole"> whole</label>
+            <button>submit</button>
+
+        </form>
+
+</html>
