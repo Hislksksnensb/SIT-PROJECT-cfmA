@@ -1,0 +1,31 @@
+/* Author of File: Firmansyah Aziz, 261107W */
+
+/* Main */
+main { max-width: 1000px; margin: 0 auto; }
+body  {background: linear-gradient(to right,#7BB661 0%,#B8DFA8 50%,#CDE7C9 100%); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif; font-size: 16px; margin: 0; padding: 0; text-align:center;}
+h1    { color: #b5731a; }
+.lead { color: #444444; font-size: 18px; }
+
+/* Navigation Bar */
+nav {display:flex; justify-content:center; gap: 40px; background-color:#FFF8EE ; padding: 20px }
+nav ul { list-style: none; padding: 0; margin: 0; }
+nav li { display: inline-block }
+nav a {color:#2E6F40;  text-decoration:none; padding:8px 15px; border-radius:8px; transition:0.3s;}
+nav a:hover{background-color:#2E6F40; color:#FFF8EE; }
+
+/* Brand Title Styling */
+.inline-brandname { display: inline-block;margin-right: 150px }
+.inline-brandslogan { display: inline-block; margin-left: 200px }
+
+/* Section Padding */
+.section-one-divider { margin-top: 80px }
+.section-two-divider { margin-top: 80px }
+.footer-divider { margin-top: 400px }
+
+/* Category Styling */
+.category-h { display: inline-block; margin-right: 700px; }
+.category-i { display: inline-block; margin-right: 10px; text-decoration: none; color: black; display: inline-block;}
+.category-i-imgstyle {  width: 150px; display: inline-block; }
+
+/* Footer */
+#footer { color: #6b7280; font-size: 13px; margin-top: 24px; }
