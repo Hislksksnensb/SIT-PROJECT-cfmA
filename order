@@ -1,13 +1,11 @@
 <!--author-->261507R vishist
     <!DOCTYPE html>
-    <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Bakers Bastion</title>
-
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakers Bastion</title>
+   <head>
         <nav>
             <a href="index.html">Home</a>
             <a href="order.html">Order</a>
@@ -15,65 +13,42 @@
             <a href="products.html">Products</a>
             <a href="contact us.html">Contact us</a>
         </nav>
-
-        <link rel="stylesheet" href="stylev.css">
-        </head>
-
-    <body>
-        <h2>Bakers Bastion order form</h2>
-<form action="feedbackform.html" method="GET">
-            <div class="big ass box">
-                <div class="card">
-                    <label for="custname">your name:</label>
-                    <input type="text" name="custname" id="custname" required>
-                </div>
-                <div class="lol">
-                    <label for="order1">Your 1st order:</label>
-                    <input type="text" name="order1" id="order1" required>
-                </div>
-                <div class="woo"><label for="order2">Your 2nd order:</label>
-                    <input type="text" name="order2" id="order2">
-                </div>
-                <div class="lols">
-                    <label for="order3">Your 3rd order:</label>
-                    <input type="text" name="order3" id="order3" >
-                </div>
-                <div class="woos"><label for="order4">Your 4th order:</label>
-                    <input type="text" name="order4" id="order4">
-                </div>
-*indicate nil if not applicable*
-                <button>submit</button>
-            
-        </form>
+   </head>
+        <div class="header">
+            <h1>Bakers Bastion</h1>
         </div>
-<form class="payment-form" onsubmit="alert('Mock Payment Submitted Successfully!'); return false;">
-  <h2>Secure Checkout</h2>
+        <link rel="stylesheet" href="stylev.css">
+       
+        <body>
+    <p1>Complete your order</p1>
+    <p2>Please select items and payment details below</p2>
+<div class="box">
+    <form><div class="name"> 
+         <label for="custname">Full name:</label>
+                    <input type="text" name="custname" id="custname" required>
+</div>
+<div class="order1">
+<label for="order1">First order:</label>
+<input type="text" name="order1" id="order" required>
+</div>
+<div class="order2">
+<label for="order2">Second order:</label>
+<input type="text" name="order2" id="order"placeholder="e.g..shrek cake" >
+</div>
+<div class="order3">
+<label for="order3">Third order:</label>
+<input type="text" name="order3" id="order" >
+</div>
+<div class="order4">
+<label for="order4">Fourth order:</label>
+<input type="text" name="order4" id="order" >
+</div>
+<div class="order5">
+<label for="order5">Fifth order:</label>
+<input type="text" name="order5" id="order" >
+</div>
 
-  <!-- Cardholder Name -->
-  <div class="form-group">
-    <label for="name">Cardholder Name</label>
-    <input type="text" id="name" placeholder="John Doe" required>
-  </div>
 
-  <!-- Card Number -->
-  <div class="form-group">
-    <label for="card-number">Card Number</label>
-    <input type="text" id="card-number" placeholder="1234 5678 9101 1121" maxlength="19" required>
-  </div>
-
-  <!-- Expiry and CVV (Side by Side) -->
-  <div class="form-row">
-    <div class="form-group">
-      <label for="expiry">Expiration Date</label>
-      <input type="text" id="expiry" placeholder="MM/YY" maxlength="5" required>
-    </div>
-    <div class="form-group">
-      <label for="cvv">CVV</label>
-      <input type="password" id="cvv" placeholder="123" maxlength="4" required>
-    </div>
-  </div>
-
-  <!-- Submit Button -->
-  <button type="submit" class="pay-btn">Pay Now</button>
-</form>
-</html>
+</div>
+</p3>
+        </body>
