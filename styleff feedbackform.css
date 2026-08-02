@@ -160,3 +160,61 @@ h2{
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
 }
 
+
+.feedback-comment {
+    display: block;
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+/* Formats the instructional prompt label */
+.feedback-comment label {
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    color: #0f172a;
+    margin-bottom: 8px;
+    text-align: left; /* Snaps label text directly to the left wall */
+}
+
+/* Styles the actual multi-line typing box panel */
+.feedback-comment textarea {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    padding: 14px;
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: inherit; /* Forces your typography to stay Inter/Geist Sans inside the box */
+    resize: vertical;    /* Restricts horizontal widening so it never breaks out of your white box card width limit */
+    min-height: 120px;   /* Sets a comfortable initial paragraph writing canvas window depth */
+    transition: border-color 0.2s ease;
+}
+
+/* Smooth brand emerald green highlight border ring active response when typing inside */
+.feedback-comment textarea:focus {
+    outline: none;
+    border-color: #15803d; 
+}
+.btn-submit {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #15803d;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 4px 12px #166534
+}
+
+.btn-submit:hover {
+    background-color: #a3cfa4;
+}
