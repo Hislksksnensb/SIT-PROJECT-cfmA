@@ -1,24 +1,60 @@
 <!--author-->261507R vishist
 <!DOCTYPE html>
 <html lang="en">
-<divpop>Bakers Bastion</divpop>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bakers Bastion</title>
-    <link rel="stylesheet" href="style.css">
-    <div class="boxs">
-        <h2>Feedback Form</h2>
-        <form action="order.html" method="GET"></form>
-        <div class="card">
-            <p>Thank you for your order could u pwease do this feedback form </p>
-            <div class="card">
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" required>
+
+    <head>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="order.html">Order</a>
+            <a href="abt us.html">About Us</a>
+            <a href="products.html">Products</a>
+            <a href="contact us.html">Contact us</a>
+        </nav>
+    </head>
+    <div class="header">
+        <h1>Bakers Bastion</h1>
+    </div>
+    <link rel="stylesheet" href="styleff.css">
+
+    <p1>Thank you for ordering with us!</p1>
+
+    <div class="box">
+        <form action="index.html" method="GET">
+            <h2>We would love to hear about your experience</h2>
+            <div class="name">
+                <label for="custname">Full name:</label>
+                <input type="text" name="custname" id="custname" required>
             </div>
-            <div class="card">
-                <label for="feedback">Feedback:</label>
-                <input type="text" name="feedback" id="feedback" required>
-                <button type="submit">Submit</button>
+
+            <p class="rating-title">How was your experience?</p>
+
+            <div class="rating-group">
+                <label class="rating-label">
+                    <input type="radio" name="star" value="5" required> 🌟🌟🌟🌟🌟
+                </label>
+                <label class="rating-label">
+                    <input type="radio" name="star" value="4"required> 🌟🌟🌟🌟
+                </label>
+                <label class="rating-label">
+                    <input type="radio" name="star" value="3" required> 🌟🌟🌟
+                </label>
+                <label class="rating-label">
+                    <input type="radio" name="star" value="2" required> 🌟🌟
+                </label>
+                <label class="rating-label">
+                    <input type="radio" name="star" value="1"> 🌟
+                </label>
             </div>
-            </form>
+           <div class="feedback-comment">
+    <label for="comments">Tell us more about your experience:</label>
+    <textarea name="comments" id="comments" rows="5"></textarea>
+</div>
+
+           <div class="submit">
+                    <button type="submit" class="btn-submit">Submit </button>
+                </div>
