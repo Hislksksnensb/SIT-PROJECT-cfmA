@@ -50,7 +50,7 @@
                     <input type="text" name="order3" id="order">
                 </div>
                
-                <div class="address">
+              <div class="address">
                     <label for="address">Delivery Address: *if pick up at store skip this step</label>
                     <input type="text" name="address" id="address" >
                 </div><div class="postal code">
@@ -58,13 +58,14 @@
                     <input type="text" name="postal code" id="postal code" placeholder="832847" >
                 </div>
                 <div class="payment">
-                    <label><input type="radio" name="size" value="cod" checked> Cash on delivery
+                    <label><input type="radio" name="size" value="cod" checked> Cash on delivery/cash in store
                     </label>
                     <label><input type="radio" name="size" value="card"> Card payment
                     </label>
                     <br>
-                    *if cash on delivery chosen skip this step*
-                </div>
+                    <div class="font">
+                        *if cash on delivery/ in store, chosen skip this step*
+                    </div>
                 <div class="cardnumber">
                     <label for="cardnumber">Card number:</label>
                     <input type="text" name="cardnumber" id="cardnumber" placeholder="1234 5678 9012 3456">
@@ -473,6 +474,11 @@ p2 {
         margin-left: 0 !important;
         width: 100% !important;
     }
+.font{
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+    font-size: 15px;
+    
 }
+
 
 
