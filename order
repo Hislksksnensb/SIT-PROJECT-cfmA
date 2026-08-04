@@ -3,105 +3,108 @@
 
 <head>
     <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Bakers Bastion</title>
-
-    <head>
-        Bakers Bastion
-    </head>
-
     <link rel="stylesheet" href="stylev.css">
+</head>
 
 <body>
-  <nav>
-            <a href="index.html">Home</a>
-            <a href="order.html">Order</a>
-            <a href="abt us.html">About Us</a>
-            <a href="products.html">Products</a>
-            <a href="contactus.html">Contact us</a>
-        </nav>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="order.html">Order</a>
+        <a href="abt us.html">About Us</a>
+        <a href="products.html">Products</a>
+        <a href="contactus.html">Contact us</a>
+    </nav>
 
-    <p1>Complete your order</p1>
-    <p2>Please select items and payment details below</p2>
+    <div class="header">
+        <h1>Bakers Bastion</h1>
+    </div>
 
+    <!-- Fixed invalid tag names to valid classes -->
+    <p class="p1">Complete your order</p>
+    <p class="p2">Please select items and payment details below</p>
     
     <div class="layout">
         <div class="boxcontainer">
-        <div class="box">
+            <!-- Moved form outside the box container layout loop to keep tag closure nesting legal -->
             <form action="feedbackform.html" method="GET">
+                <div class="box">
 
-                <div class="name">
-                    <label for="custname">name:</label>
-                    <input type="text" name="custname" id="custname" required>
-                </div>
-                
-                <div class="order1">
-                    <label for="order1">First order:</label>
-                    <input type="text" name="order1" id="order1" required >
-                </div>
-                <div class="order2">
-                    <label for="order2">Second order:</label>
-                    <input type="text" name="order2" id="order2" >
-                </div>
-                <div class="order3">
-                    <label for="order3">Third order:</label>
-                    <input type="text" name="order3" id="order3" >
-                </div>
-               
-                <div class="address">
-                    <label for="address">Delivery Address: *if pick up at store skip this step</label>
-                    <input type="text" name="address" id="address" >
-                </div><div class="postal code">
-                    <label for="postalcode">Postal Code:</label>
-                    <input type="text" name="postalcode" id="postalcode" >
-                </div>
-                <div class="payment">
-                    <label><input type="radio" name="size" value="cod" checked> Cash on delivery/cash in store
-                    </label>
-                    <label><input type="radio" name="size" value="card"> Card payment
-                    </label>
-                    <br>
-                    <div class="font">
-                        *if cash on delivery/in store, chosen skip this step*
+                    <div class="name">
+                        <label for="custname">name:</label>
+                        <input type="text" name="custname" id="custname" required>
+                    </div>
+                    
+                    <div class="order1">
+                        <label for="order1">First order:</label>
+                        <input type="text" name="order1" id="order1" required>
+                    </div>
+                    <div class="order2">
+                        <label for="order2">Second order:</label>
+                        <input type="text" name="order2" id="order2">
+                    </div>
+                    <div class="order3">
+                        <label for="order3">Third order:</label>
+                        <input type="text" name="order3" id="order3">
+                    </div>
+                   
+                    <div class="address">
+                        <label for="address">Delivery Address: *if pick up at store skip this step</label>
+                        <input type="text" name="address" id="address">
+                    </div>
+                    
+                    <!-- Fixed space in class name to valid matching format -->
+                    <div class="postal-code">
+                        <label for="postalcode">Postal Code:</label>
+                        <input type="text" name="postalcode" id="postalcode">
+                    </div>
+                    
+                    <div class="payment">
+                        <label><input type="radio" name="size" value="cod" checked> Cash on delivery/cash in store</label>
+                        <label><input type="radio" name="size" value="card"> Card payment</label>
+                        <br>
+                        <div class="font">
+                            *if cash on delivery/in store, chosen skip this step*
+                        </div>
+                    </div>
+                    
+                    <div class="cardnumber">
+                        <label for="cardnumber">Card number:</label>
+                        <input type="text" name="cardnumber" id="cardnumber" placeholder="1234 5678 9012 3456">
+                    </div>
+                    <div class="expiry">
+                        <label for="expiry">Expiry date:</label>
+                        <input type="text" name="expiry" id="expiry" placeholder="MM/YY">
+                    </div>
+                    <div class="cvv">
+                        <label for="cvv">CVV:</label>
+                        <input type="text" name="cvv" id="cvv" placeholder="123">
+                    </div>
+                    
+                    <div class="submit">
+                        <button type="submit" class="btn-submit">Submit Order</button>
                     </div>
                 </div>
-                <div class="cardnumber">
-                    <label for="cardnumber">Card number:</label>
-                    <input type="text" name="cardnumber" id="cardnumber" placeholder="1234 5678 9012 3456">
+            </form>
+          
+            <div class="secndbox">
+                <h3 class="h3secndbox">📋 Order Pricing</h3>
+                <p>• Single Custom Selection: <strong>$35.00 flat</strong></p>
+                <p>• Delivery / Logistics Fee: <strong>$5.00</strong></p>
+              
+                <p>*Final calculated summary will be printed directly on your physical receipt at checkout.*</p>
+            
+                <div class="thirdbox">
+                    <h3 class="h3third">*Important Notice* over 3 orders will need to be placed in person at our store, please contact us for more information <span class="keep-together">+65 3738194</span></h3>
                 </div>
-                <div class="expiry">
-                    <label for="expiry">Expiry date:</label>
-                    <input type="text" name="expiry" id="expiry" placeholder="MM/YY">
-                </div>
-                <div class="cvv">
-                    <label for="cvv">CVV:</label>
-                    <input type="text" name="cvv" id="cvv" placeholder="123">
-                </div>
-                
-
-                <div class="submit">
-                    <button type="submit" class="btn-submit">Submit Order</button>
-                </div>
+            </div>
         </div>
-      
-        <div class="secndbox">
-            <h3 class="h3secndbox">📋 Order Pricing</h3>
-    <p>• Single Custom Selection: <strong>$35.00 flat</strong></p>
-    <p>• Delivery / Logistics Fee: <strong>$5.00</strong></p><p>*Final calculated summary will be printed directly on your physical receipt at checkout.*</p>
-        
-    <div class="thirdbox">
-            <h3 class="h3third">*Important Notice* over 3 orders will need to be placed in person at our store,
-                please contact us for more information
-                <span class="keep-together">+65 3738194</span></h3>
-        </div></div></div>
-    
-
-
-    </div></div>
     </div>
+
 </body>
-</form>
-</body>
+</html>
+
 
 
 body {
@@ -164,7 +167,7 @@ nav ul {
     text-align: left;
 }
 
-p1 {
+.p1 {
     font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
     font-size: 30px;
     color: rgb(0, 0, 0);
@@ -177,194 +180,7 @@ p1 {
     margin-top: 60px;
 }
 
-p2 {
-    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
-    font-size: 20px;
-    color: #707e94;
-    margin-top: 10px;
-    padding: 0 10px;
-    display: block;
-    margin-left: 250px;
-    text-align: left;
-    margin-top: 20px;
-}
-
-.box {
-    height: 850px;
-    width: 100%;
-    margin: 20px;
-    border: 1px solid #fefdfb;
-    border-radius: 12px;
-    max-width: 500px;
-    padding: 35px;
-    margin-left: 250px;
-    margin-top: 20px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
-    background-color: #fff;
-}
-
-/* =============================================================
-   SECOND HALF OF CSS (YOUR NEW BLOCKS)
-   ============================================================= */
-.secndbox {
-    background-color: #f0fdf4;  
-    border: 1px solid #bbf7d0;  
-    border-radius: 12px;        
-    width: 100%;                
-    max-width: 300px;           
-    padding: 28px;              
-    margin-top: 20px;           
-    box-sizing: border-box;     
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
-}
-
-.h3secndbox {
-    margin-top: 10px; 
-    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
-    font-size: 20px;
-    line-height: 1.5;           
-    margin: 0;      
-}            
-
-.layout {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
-    align-items: flex-start;
-}
-
-.btn-submit {
-    margin-top: 20px;
-    width: 100%;
-    height: 50px;
-    background-color: #15803d;
-    color: #ffffff;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 700;
-    cursor: pointer;
-    box-shadow: 0 4px 12px #166534;
-}
-
-.btn-submit:hover {
-    background-color: #a3cfa4;
-}
-
-.address {
-    display: block;
-    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
-    margin-top: 20px;
-    margin-bottom: 25px;
-    width: 100%;
-}
-
-.address label {
-    display: block;
-    font-weight: bold;
-    font-size: 15px;
-    color: #0f172a;
-    margin-bottom: 8px;
-    margin-right: 300px;
-    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
-}
-
-.address input[type="text"] {
-    display: block;
-    width: 100%;
-    max-width: 500px;
-    height: 48px;
-    padding: 0 14px;
-    background-color: #ffffff;
-    border: 1px solid #cbd5e1;
-    border-radius: 8px;
-    font-size: 16px;
-    box-sizing: border-box;
-}
-
-.postalcode {
-    display: block;
-    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
-    margin-top: 20px;
-    margin-bottom: 25px;
-    width: 100%;
-}
-
-body {
-    background: #FFF8EE;
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    text-align: center;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    background-color: #B8DFA8;
-    padding: 20px;
-}
-
-nav a {
-    color: #2E6F40;          
-    text-decoration: none;
-    padding: 8px 15px;
-    border-radius: 8px;
-    transition: 0.3s;
-    font-weight: bold;
-}
-
-nav a:hover {
-    background-color: #FFF8EE;   
-    color: #2E6F40;              
-}
-
-main {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-h1 {
-    font-size: 60px;
-    color: rgb(0, 0, 0);
-    margin-top: 10px;
-    font-family: comic, sans-serif;
-    padding: 0 100px;
-}
-
-nav ul {
-    list-style-type: none;
-    background-color: #309f5b;
-    padding: 10px;
-}
-
-.header h1 {
-    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
-    font-size: 50px;
-    color: #0f172a;
-    margin-top: 10px;
-    padding: 0 0;
-    display: block;
-    margin-left: 20px;
-    text-align: left;
-}
-
-p1 {
-    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    margin-top: 10px;
-    padding: 0 10px;
-    display: block;
-    margin-left: 250px;
-    text-align: left;
-    font-weight: bold;
-    margin-top: 60px;
-}
-
-p2 {
+.p2 {
     font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
     font-size: 20px;
     color: #707e94;
@@ -529,9 +345,7 @@ p2 {
     flex-wrap: wrap; /* Added wrapper support so boxes drop below cleanly */
 }
 
-/* =============================================================
-   FORM INPUT FIELD CATEGORIES (NAME, ORDERS, PAYMENT)
-   ============================================================= */
+
 .name, .order1, .order2, .order3 {
     display: block;
     font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
@@ -618,7 +432,7 @@ p2 {
 
 
     /* 1. Pull headlines and text directly to the left edge */
-    p1, p2, h1, .header h1 {
+    .p1,. p2, h1, .header h1 {
         margin-left: 15px !important;  
         margin-right: auto !important;
         text-align: left !important;   
@@ -674,7 +488,8 @@ p2 {
 .font{
     font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
     font-size: 15px;
-
+    
+}
 
 
 
