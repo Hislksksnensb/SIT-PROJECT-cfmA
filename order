@@ -405,10 +405,7 @@ nav ul {
     margin-left: 0;
 }
 
-/* =============================================================
-   THE FINAL MOBILE FIX: FORCES ALL ELEMENTS TO THE LEFT
-   Activates ONLY on screens 768px wide or less
-   ============================================================= */
+
 @media (max-width: 768px) {
     html, body {
         overflow-x: hidden !important; 
@@ -417,21 +414,21 @@ nav ul {
     nav {
         display: flex !important;
         justify-content: center !important;
-        flex-wrap: wrap !important;  /* Allows links to drop into a second neat line if needed */
-        gap: 8px !important;         /* Shrinks desktop 40px gap down to a tight mobile 8px gap */
-        padding: 12px 5px !important; /* Slimmer spacing on top and bottom */
+        flex-wrap: wrap !important;  
+        gap: 8px !important;         
+        padding: 12px 5px !important;
         width: 100% !important;
         box-sizing: border-box !important;
     }
 
-    /* 2. Slim down the individual links so they all fit across the screen */
+    /* 2. 
     nav a {
-        font-size: 14px !important;  /* Slightly smaller font for mobile thumbs */
-        padding: 6px 10px !important; /* Shaves off padding to save massive horizontal space */
+        font-size: 14px !important; 
+        padding: 6px 10px !important; 
     }
 
 
-    /* 1. Pull headlines and text directly to the left edge */
+    
     .p1,. p2, h1, .header h1 {
         margin-left: 15px !important;  
         margin-right: auto !important;
