@@ -1,4 +1,3 @@
- <!--author-->261507R vishist
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,8 +21,8 @@
     <link rel="stylesheet" href="styleff.css">
 
     <p1>Thank you for ordering with us!</p1>
-
-    <div class="box">
+<div class="layout">
+   <div class="boxcontainer"> <div class="box">
         <form action="index.html" method="GET">
             <h2>We would love to hear about your experience</h2>
             <div class="name">
@@ -57,31 +56,38 @@
 
            <div class="submit">
                     <button type="submit" class="btn-submit">Submit </button>
-                </div>
+                </div></div></div></div>
             CSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
-            /*body{
-    background-color: #F5F5DC;
+          body{
+    background: #FFF8EE;
+    margin: 0;
+    padding: 0;
+    
+    
 }
+
 nav {
     display: flex;
     justify-content: center;
     gap: 40px;
-    background-color: #189044;
+    background-color: #B8DFA8;
     padding: 20px
 }
 
 nav a {
-    color: #FAF6EE;
+    color: #2E6F40;          
     text-decoration: none;
     padding: 8px 15px;
     border-radius: 8px;
     transition: 0.3s;
+    font-weight: bold;
 }
 
 nav a:hover {
-    background-color: #166534;
-    color: #FFFFFF;
-}nav ul {
+    background-color: #FFF8EE;   
+    color: #2E6F40;              
+}
+nav ul {
     background-color: #2E6F40;
     /* Matched green instead of dark blue */
     padding: 10px;
@@ -210,6 +216,7 @@ h2{
 
 /* Your main container box */
 .box {
+  
     height: 800px;
     width: 100%;
     max-width: 500px;
@@ -266,15 +273,103 @@ h2{
     margin-top: 20px;
     width: 100%;
     height: 50px;
-    background-color: #15803d;
-    color: #ffffff;
+    background-color: #B8DFA8;
+    color: #15803d;
     border: none;
     border-radius: 8px;
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
-    box-shadow: 0 4px 12px #166534
+    box-shadow: 0 4px 12px #424644
 }
+
+.btn-submit:hover {
+    background-color: #a3cfa4;
+}
+@media (max-width: 768px) {
+    html, body {
+        overflow-x: hidden !important; /* Unlocks bad scrolling locks */
+    }
+
+    /* 1. Pull headlines and text directly to the left edge */
+    p1, p2, h1, .header h1, h2, .rating-title {
+        margin-left: 15px !important;  /* Gives clean 15px room from the left glass */
+        margin-right: auto !important;
+        text-align: left !important;   /* Locks text alignment to the left */
+    }
+    
+    h1 {
+        font-size: 34px !important;    
+        padding: 0 15px !important;
+    }
+    
+    .header h1 {
+        font-size: 30px !important;
+        padding: 0 !important;
+    }
+
+    h2 {
+        font-size: 22px !important; /* Prevents long text from warping weirdly */
+    }
+
+    /* 2. Anchor the main layout content container to the left wall */
+    .boxcontainer, .layout {
+        display: flex !important;
+        flex-direction: column !important; 
+        justify-content: flex-start !important; 
+        align-items: flex-start !important; 
+        width: 100% !important;
+        padding-left: 15px !important;      
+        box-sizing: border-box !important;
+    }
+
+    /* 3. Drop center margins so the boxes sit firmly on the left side */
+    .box, .secndbox, .thirdbox {
+        margin-left: 0 !important;     
+        margin-right: auto !important; 
+        height: auto !important;       
+        padding: 20px !important;      
+        width: 90% !important;         
+        max-width: 90% !important; 
+        box-sizing: border-box !important; 
+    }
+
+    /* 4. Lock form text inputs and feedback blocks to the left */
+    .name, .feedback-comment, .rating-group, .submit {
+        text-align: left !important;
+        box-sizing: border-box !important;
+        width: 100% !important;
+    }
+
+    /* Drop old label layout push blocks */
+    .name label, .feedback-comment label {
+        margin-right: 0 !important; 
+        text-align: left !important;
+    }
+
+    /* Force the textarea input field to fill the card beautifully on phone sizes */
+    .feedback-comment textarea {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Make star radio options stack neatly and align cleanly on the left */
+    .rating-group {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 10px !important;
+        padding-left: 5px !important;
+    }
+
+    .rating-label {
+        display: flex !important;
+        align-items: center !important;
+        text-align: left !important;
+        font-size: 18px !important; /* Slightly enlarged emoji size for easier finger clicking */
+    }
+}
+
 
 .btn-submit:hover {
     background-color: #a3cfa4;
