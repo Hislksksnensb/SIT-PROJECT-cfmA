@@ -11,7 +11,7 @@ nav {
     justify-content: center;
     gap: 40px;
     background-color: #B8DFA8;
-    padding: 20px
+    padding: 20px;
 }
 
 nav a {
@@ -146,7 +146,6 @@ nav a:hover {
     width: 100% !important;
     align-items: flex-start !important;
     padding: 15px !important;
-    box-sizing: border-box !important;
   }
 
   .sidebar h3 {
@@ -185,6 +184,5 @@ nav a:hover {
   .text {
     text-align: left !important;
     width: 100% !important;
-    box-sizing: border-box !important;
   }
 }
