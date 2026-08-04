@@ -104,9 +104,6 @@
 </body>
 
 
- 
-
-    
 body {
     background: #FFF8EE;
     margin: 0;
@@ -393,9 +390,7 @@ p2 {
     background-color: #fff;
 }
 
-/* =============================================================
-   SECOND HALF OF CSS (YOUR NEW BLOCKS)
-   ============================================================= */
+
 .secndbox {
     background-color: #f0fdf4;  
     border: 1px solid #bbf7d0;  
@@ -604,6 +599,23 @@ p2 {
     html, body {
         overflow-x: hidden !important; 
     }
+        /* 1. Squeeze the nav bar container so nothing overflows the glass */
+    nav {
+        display: flex !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;  /* Allows links to drop into a second neat line if needed */
+        gap: 8px !important;         /* Shrinks desktop 40px gap down to a tight mobile 8px gap */
+        padding: 12px 5px !important; /* Slimmer spacing on top and bottom */
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    /* 2. Slim down the individual links so they all fit across the screen */
+    nav a {
+        font-size: 14px !important;  /* Slightly smaller font for mobile thumbs */
+        padding: 6px 10px !important; /* Shaves off padding to save massive horizontal space */
+    }
+
 
     /* 1. Pull headlines and text directly to the left edge */
     p1, p2, h1, .header h1 {
@@ -662,8 +674,6 @@ p2 {
 .font{
     font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
     font-size: 15px;
-    
-}
 
 
 
