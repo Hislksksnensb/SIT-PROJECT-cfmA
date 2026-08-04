@@ -389,7 +389,7 @@ nav ul {
         overflow-x: hidden !important; 
     }
 
-    /* 1. Pull titles and question texts directly to the left edge */
+   
     p1, p2, h1, h2, .header h1, .name, p {
         margin-left: 15px !important;  
         margin-right: auto !important;
@@ -401,7 +401,7 @@ nav ul {
         margin-top: 15px !important;
     }
 
-    /* 2. Anchor the container box to the left wall */
+  
     .layout {
         display: flex !important;
         flex-direction: column !important; 
@@ -412,7 +412,6 @@ nav ul {
         box-sizing: border-box !important;
     }
 
-    /* 3. Pull the card panel left and stop it from stretching too wide */
     .box {
         margin-left: 0 !important;     
         margin-right: auto !important; 
@@ -423,20 +422,20 @@ nav ul {
         box-sizing: border-box !important; 
     }
 
-    /* 4. Fix labels and clear desktop right-push margins */
+  
     .name label, .payment label,.address label, .postalcode label  {
         margin-right: 0 !important; 
         display: block !important;
         text-align: left !important;
     }
 
-    /* 5. Force text inputs AND dropdown select bars to fill the box beautifully */
+    
     .name input[type="text"], 
     .name select {
         display: block !important;
         width: 100% !important;
         max-width: 100% !important;
-        height: 48px !important; /* Makes selection dropdowns nice and chunky for thumbs */
+        height: 48px !important; 
         margin-top: 8px !important;
         margin-bottom: 15px !important;
         padding: 0 14px !important;
@@ -446,8 +445,23 @@ nav ul {
         font-size: 16px !important;
         box-sizing: border-box !important;
     }
+    nav {
+        display: flex !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;  
+        gap: 8px !important;        
+        padding: 12px 5px !important; 
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
 
-    /* Keep text paragraph questions tidy */
+    
+    nav a {
+        font-size: 14px !important; 
+        padding: 6px 10px !important; 
+    }
+
+
     p {
         width: 100% !important;
         margin-top: 10px !important;
@@ -455,3 +469,4 @@ nav ul {
         font-weight: bold;
     }
 }
+
