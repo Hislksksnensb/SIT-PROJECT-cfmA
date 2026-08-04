@@ -27,7 +27,7 @@
     <p2>Please select items and payment details below</p2>
 
     
-    <div class=centter><div class="layout">
+    <div class="layout">
         <div class="boxcontainer">
         <div class="box">
             <form action="feedbackform.html" method="GET">
@@ -39,18 +39,18 @@
                 
                 <div class="order1">
                     <label for="order1">First order:</label>
-                    <input type="text" name="order1" id="order" required>
+                    <input type="text" name="order1" id="order" required placeholder="e.g. shrek cake..">
                 </div>
                 <div class="order2">
                     <label for="order2">Second order:</label>
-                    <input type="text" name="order2" id="order">
+                    <input type="text" name="order2" id="order" placeholder="e.g. ah ma's durian ..">
                 </div>
                 <div class="order3">
                     <label for="order3">Third order:</label>
-                    <input type="text" name="order3" id="order">
+                    <input type="text" name="order3" id="order" placeholder="e.g. pandan coconut ..">
                 </div>
                
-              <div class="address">
+                <div class="address">
                     <label for="address">Delivery Address: *if pick up at store skip this step</label>
                     <input type="text" name="address" id="address" >
                 </div><div class="postal code">
@@ -64,8 +64,9 @@
                     </label>
                     <br>
                     <div class="font">
-                        *if cash on delivery/ in store, chosen skip this step*
+                        *if cash on delivery/in store, chosen skip this step*
                     </div>
+                </div>
                 <div class="cardnumber">
                     <label for="cardnumber">Card number:</label>
                     <input type="text" name="cardnumber" id="cardnumber" placeholder="1234 5678 9012 3456">
@@ -296,6 +297,193 @@ p2 {
     margin-bottom: 25px;
     width: 100%;
 }
+
+body {
+    background: #FFF8EE;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: #B8DFA8;
+    padding: 20px;
+}
+
+nav a {
+    color: #2E6F40;          
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #FFF8EE;   
+    color: #2E6F40;              
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    font-family: comic, sans-serif;
+    padding: 0 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #309f5b;
+    padding: 10px;
+}
+
+.header h1 {
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+    font-size: 50px;
+    color: #0f172a;
+    margin-top: 10px;
+    padding: 0 0;
+    display: block;
+    margin-left: 20px;
+    text-align: left;
+}
+
+p1 {
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    padding: 0 10px;
+    display: block;
+    margin-left: 250px;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+p2 {
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+    font-size: 20px;
+    color: #707e94;
+    margin-top: 10px;
+    padding: 0 10px;
+    display: block;
+    margin-left: 250px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.box {
+    height: 850px;
+    width: 100%;
+    margin: 20px;
+    border: 1px solid #fefdfb;
+    border-radius: 12px;
+    max-width: 500px;
+    padding: 35px;
+    margin-left: 250px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+}
+
+/* =============================================================
+   SECOND HALF OF CSS (YOUR NEW BLOCKS)
+   ============================================================= */
+.secndbox {
+    background-color: #f0fdf4;  
+    border: 1px solid #bbf7d0;  
+    border-radius: 12px;        
+    width: 100%;                
+    max-width: 300px;           
+    padding: 28px;              
+    margin-top: 20px;           
+    box-sizing: border-box;     
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+}
+
+.h3secndbox {
+    margin-top: 10px; 
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;           
+    margin: 0;      
+}            
+
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.btn-submit {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #15803d;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 4px 12px #166534
+}
+
+.btn-submit:hover {
+    background-color: #a3cfa4;
+}
+
+.address {
+    display: block;
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.address label {
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    color: #0f172a;
+    margin-bottom: 8px;
+    margin-right: 300px;
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+}
+
+.address input[type="text"] {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: 48px;
+    padding: 0 14px;
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.postalcode {
+    display: block;
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 100%;
+}
 .postalcode label {
     display: block;
     font-weight: bold;
@@ -474,11 +662,13 @@ p2 {
         margin-left: 0 !important;
         width: 100% !important;
     }
+}
 .font{
     font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
     font-size: 15px;
     
 }
+
 
 
 
