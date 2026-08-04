@@ -2,30 +2,30 @@
 
 /* Main */
 main { max-width: 1000px; margin: 0 auto; }
-body  {background: linear-gradient(to right,#7BB661 0%,#B8DFA8 50%,#CDE7C9 100%); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif; font-size: 16px; margin: 0; padding: 0; text-align:center;}
+body  {background: #f5f4df; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif; font-size: 16px; margin: 0; padding: 0; text-align:center; min-height: 100dvh; }
 h1    { color: #b5731a; }
 .lead { color: #444444; font-size: 18px; }
 
 /* Navigation Bar */
-nav {display:flex; justify-content:center; gap: 40px; background-color:#FFF8EE ; padding: 20px }
+nav {display:flex; justify-content:center; gap: 40px; background-color:#c2dcad ; padding: 20px }
 nav ul { list-style: none; padding: 0; margin: 0; }
 nav li { display: inline-block }
-nav a {color:#2E6F40;  text-decoration:none; padding:8px 15px; border-radius:8px; transition:0.3s;}
-nav a:hover{background-color:#2E6F40; color:#FFF8EE; }
+nav a {color:#5a7748;  text-decoration:none; padding:8px 15px; border-radius:8px; transition:0.3s;}
+nav a:hover{background-color:#f5f4df; color:#5a7748; }
 
 /* Brand Title Styling */
 .inline-brandname { display: inline-block;margin-right: 150px }
 .inline-brandslogan { display: inline-block; margin-left: 200px }
 
 /* Section Padding */
-.section-one-divider { margin-top: 80px }
-.section-two-divider { margin-top: 80px }
-.footer-divider { margin-top: 400px }
+.section-one-divider { margin-top: 10px }
+.section-two-divider { margin-top: 5px }
+.footer-divider { margin-top: 450px }
 
 /* Category Styling */
-.category-h { display: inline-block; margin-right: 700px; }
-.category-i { display: inline-block; margin-right: 10px; text-decoration: none; color: black; display: inline-block;}
-.category-i-imgstyle {  width: 150px; display: inline-block; }
+.category-h { display: flex; justify-content: center; margin-bottom: -15px; margin-right: 149dvh;}
+.category-i { display: flex; margin-right: 10px; text-decoration: none; color: black; display: inline-block; font-size: 20px;}
+.category-i-imgstyle { display:flex; width: 200px; display: inline-block; border-radius: 25px; padding: 15px; }
 
 /* Footer */
-#footer { color: #6b7280; font-size: 13px; margin-top: 24px; }
+#footer { color: #6b7280; font-size: 13px; margin-top: 24px; flex: 1; text-align: center; }
