@@ -89,17 +89,15 @@ nav a:hover {
 }
 nav ul {
     background-color: #2E6F40;
-    /* Matched green instead of dark blue */
     padding: 10px;
     list-style-type: none;
-}/* Container spacing for the whole rating group */
+}
 .rating-group {
-    text-align: left;       /* Snaps everything straight to the left wall */
+    text-align: left;     
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
-/* Styles the "How was your experience?" prompt text */
 .rating-title {
     font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
     font-weight: bold;
@@ -108,21 +106,20 @@ nav ul {
     margin-bottom: 12px;
 }
 
-/* Formats each star line item into a clean clickable row */
 .rating-label {
-    display: flex;          /* Lines up the circular radio button with the star characters cleanly */
+    display: flex;      
     align-items: center;
-    gap: 10px;              /* Clean little gap between the click circle and the emoji */
-    font-size: 18px;        /* Blows up the stars slightly so they look premium */
-    margin-bottom: 10px;    /* Spacing between each star tier row */
-    cursor: pointer;        /* Makes the cursor change to a pointer hand when hovered */
+    gap: 10px;             
+    font-size: 18px;       
+    margin-bottom: 10px;  
+    cursor: pointer;
     width: fit-content;
 }
 
-/* Subtle styling touch for the radio target button itself */
+
 .rating-label input[type="radio"] {
-    accent-color: #15803d;  /* Sets the inside click circle color to your original emerald green! */
-    width: 18px;            /* Makes the button slightly larger and easier to hit */
+    accent-color: #15803d; 
+    width: 18px;            
     height: 18px;
 }
 .name {
@@ -131,7 +128,7 @@ nav ul {
     margin-top: 20px;
     margin-bottom: 25px;
     width: 100%;
-    /* Allows the whole section to use the available space */
+    
 }
 h1{ font-size: 60px;
     font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
@@ -140,35 +137,26 @@ h1{ font-size: 60px;
     margin-bottom: 20px;
 }
 
-/* 2. This targets ONLY the text word "Full name:" */
+
 .name label {
     display: block;
-    /* Forces the input box to drop to the next line */
     font-weight: bold;
     font-size: 15px;
     color: #0f172a;
     margin-bottom: 8px;
-    /* Space between the word and the writing box */
     margin-right: 300px;
     font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
 }
 
-/* 3. This targets ONLY the actual writing text box */
 .name input[type="text"] {
     display: block;
     width: 100%;
-    /* Makes ONLY the writing box stretch nice and wide */
     max-width: 500px;
-    /* Prevents the input box from getting too long */
     height: 48px;
-    /* Gives it that nice chunky, clickable size */
     padding: 0 14px;
-    /* Keeps your typing away from the left border edge */
     background-color: #ffffff;
     border: 1px solid #cbd5e1;
-    /* This adds the border to the box, NOT the words */
     border-radius: 8px;
-    /* Smoothly rounds the corners of the box */
     font-size: 16px;
     box-sizing: border-box;
 }
@@ -188,7 +176,7 @@ h2{
     color: #0f172a;
     
 }
-/* Styling for your question text */
+
 .rating-title {
     font-size: 16px;
     font-weight: normal;
@@ -196,31 +184,31 @@ h2{
     color: #333;
 }
 
-/* Container for your ratings */
+
 .rating-group {
     display: flex;
-    flex-direction: column; /* Stacks the options vertically */
-    gap: 12px;              /* Adds clean, even spacing between rows */
+    flex-direction: column; 
+    gap: 12px;             
     margin-top: 15px;
     margin-bottom: 25px;
 }
 
-/* Individual option row styling */
+
 .rating-label {
     display: flex;
-    align-items: center;    /* Keeps the circle and stars aligned horizontally */
-    gap: 8px;               /* Spaces the circle out from the stars */
+    align-items: center;   
+    gap: 8px;              
     cursor: pointer;
-    white-space: nowrap;    /* Guarantees stars stay together on one line */
+    white-space: nowrap;    
 }
 
-/* Your main container box */
+
 .box {
   
     height: 800px;
     width: 100%;
     max-width: 500px;
-    margin-left:300px;   /* Centers the box automatically on the screen */
+    margin-left:300px;   
     padding: 35px;
     border: 1px solid #fefdfb;
     border-radius: 12px;
@@ -237,17 +225,17 @@ h2{
     width: 100%;
 }
 
-/* Formats the instructional prompt label */
+
 .feedback-comment label {
     display: block;
     font-weight: bold;
     font-size: 15px;
     color: #0f172a;
     margin-bottom: 8px;
-    text-align: left; /* Snaps label text directly to the left wall */
+    text-align: left; 
 }
 
-/* Styles the actual multi-line typing box panel */
+
 .feedback-comment textarea {
     display: block;
     width: 100%;
@@ -258,13 +246,12 @@ h2{
     border-radius: 8px;
     font-size: 16px;
     box-sizing: border-box;
-    font-family: inherit; /* Forces your typography to stay Inter/Geist Sans inside the box */
-    resize: vertical;    /* Restricts horizontal widening so it never breaks out of your white box card width limit */
-    min-height: 120px;   /* Sets a comfortable initial paragraph writing canvas window depth */
+    font-family: inherit; 
+    resize: vertical;    
+    min-height: 120px;   
     transition: border-color 0.2s ease;
 }
 
-/* Smooth brand emerald green highlight border ring active response when typing inside */
 .feedback-comment textarea:focus {
     outline: none;
     border-color: #15803d; 
@@ -288,14 +275,12 @@ h2{
 }
 @media (max-width: 768px) {
     html, body {
-        overflow-x: hidden !important; /* Unlocks bad scrolling locks */
+        overflow-x: hidden !important; 
     }
-
-    /* 1. Pull headlines and text directly to the left edge */
     p1, p2, h1, .header h1, h2, .rating-title {
-        margin-left: 15px !important;  /* Gives clean 15px room from the left glass */
+        margin-left: 15px !important;  
         margin-right: auto !important;
-        text-align: left !important;   /* Locks text alignment to the left */
+        text-align: left !important;   
     }
     
     h1 {
@@ -309,10 +294,9 @@ h2{
     }
 
     h2 {
-        font-size: 22px !important; /* Prevents long text from warping weirdly */
+        font-size: 22px !important; 
     }
 
-    /* 2. Anchor the main layout content container to the left wall */
     .boxcontainer, .layout {
         display: flex !important;
         flex-direction: column !important; 
@@ -323,7 +307,6 @@ h2{
         box-sizing: border-box !important;
     }
 
-    /* 3. Drop center margins so the boxes sit firmly on the left side */
     .box, .secndbox, .thirdbox {
         margin-left: 0 !important;     
         margin-right: auto !important; 
@@ -334,20 +317,19 @@ h2{
         box-sizing: border-box !important; 
     }
 
-    /* 4. Lock form text inputs and feedback blocks to the left */
+
     .name, .feedback-comment, .rating-group, .submit {
         text-align: left !important;
         box-sizing: border-box !important;
         width: 100% !important;
     }
 
-    /* Drop old label layout push blocks */
+
     .name label, .feedback-comment label {
         margin-right: 0 !important; 
         text-align: left !important;
     }
 
-    /* Force the textarea input field to fill the card beautifully on phone sizes */
     .feedback-comment textarea {
         width: 100% !important;
         max-width: 100% !important;
