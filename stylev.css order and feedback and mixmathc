@@ -1,0 +1,438 @@
+/*order form css*/
+
+body{
+    background-color: #F5F5DC;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: #189044;
+    padding: 20px
+}
+
+nav a {
+    color: #FAF6EE;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #166534;
+    color: #FFFFFF;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+h1 {
+    font: size 60px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    font-family: comic, sans-serif;
+    padding: 0 100px;
+}
+
+FOR NOW STILL ORDER CSS nav ul {
+    list-style-type: none;
+    background-color: #166534;
+    padding: 10px;
+    list-style-type: none
+}
+
+
+
+/* Navigation List Container */
+nav ul {
+    background-color: #2E6F40;
+    /* Matched green instead of dark blue */
+    padding: 10px;
+    list-style-type: none;
+}
+
+.header h1 {
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+    font-size: 50px;
+    color: #0f172a;
+    margin-top: 10px;
+    padding: 0 0;
+    display: block;
+    margin-left: 20px;
+    text-align: left;
+}
+
+p1 {
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    padding: 0 10;
+    display: block;
+    margin-left: 250px;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+p2 {
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+    font-size: 20px;
+    color: #707e94;
+    margin-top: 10px;
+    padding: 0 10;
+    display: block;
+    margin-left: 250px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.box {
+    height: 850px;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border: 1px solid #fefdfb;
+    /* Thin, light-gray crisp border */
+    border-radius: 12px;
+    max-width: 500px;
+    /* Prevents the box from getting too wide */
+    width: 100%;
+    padding: 35px;
+    /* Generous breathing room inside the box */
+    margin-left: 250px;
+    /* Aligns it nicely to your left margin */
+    margin-top: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+    /* Soft professional shadow */
+    background-color: #fff;
+
+}
+
+.name
+
+/* 1. This handles ONLY the overall layout container */
+.name {
+    display: block;
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 100%;
+    /* Allows the whole section to use the available space */
+}
+
+/* 2. This targets ONLY the text word "Full name:" */
+.name label {
+    display: block;
+    /* Forces the input box to drop to the next line */
+    font-weight: bold;
+    font-size: 15px;
+    color: #0f172a;
+    margin-bottom: 8px;
+    /* Space between the word and the writing box */
+    margin-right: 300px;
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+}
+
+/* 3. This targets ONLY the actual writing text box */
+.name input[type="text"] {
+    display: block;
+    width: 100%;
+    /* Makes ONLY the writing box stretch nice and wide */
+    max-width: 500px;
+    /* Prevents the input box from getting too long */
+    height: 48px;
+    /* Gives it that nice chunky, clickable size */
+    padding: 0 14px;
+    /* Keeps your typing away from the left border edge */
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    /* This adds the border to the box, NOT the words */
+    border-radius: 8px;
+    /* Smoothly rounds the corners of the box */
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.order1 {
+    display: block;
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 100%;
+    /* Allows the whole section to use the available space */
+}
+
+/* 2. This targets ONLY the text word "Full name:" */
+.order1 label {
+    display: block;
+    /* Forces the input box to drop to the next line */
+    font-weight: bold;
+    font-size: 15px;
+    color: #0f172a;
+    margin-bottom: 8px;
+    /* Space between the word and the writing box */
+    margin-right: 300px;
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+}
+
+/* 3. This targets ONLY the actual writing text box */
+.order1 input[type="text"] {
+    display: block;
+    width: 100%;
+    /* Makes ONLY the writing box stretch nice and wide */
+    max-width: 500px;
+    /* Prevents the input box from getting too long */
+    height: 48px;
+    /* Gives it that nice chunky, clickable size */
+    padding: 0 14px;
+    /* Keeps your typing away from the left border edge */
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    /* This adds the border to the box, NOT the words */
+    border-radius: 8px;
+    /* Smoothly rounds the corners of the box */
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.order2 {
+    display: block;
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 100%;
+    /* Allows the whole section to use the available space */
+}
+
+/* 2. This targets ONLY the text word "Full name:" */
+.order2 label {
+    display: block;
+    /* Forces the input box to drop to the next line */
+    font-weight: bold;
+    font-size: 15px;
+    color: #0f172a;
+    margin-bottom: 8px;
+    /* Space between the word and the writing box */
+    margin-right: 300px;
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+}
+
+/* 3. This targets ONLY the actual writing text box */
+.order2 input[type="text"] {
+    display: block;
+    width: 100%;
+    /* Makes ONLY the writing box stretch nice and wide */
+    max-width: 500px;
+    /* Prevents the input box from getting too long */
+    height: 48px;
+    /* Gives it that nice chunky, clickable size */
+    padding: 0 14px;
+    /* Keeps your typing away from the left border edge */
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    /* This adds the border to the box, NOT the words */
+    border-radius: 8px;
+    /* Smoothly rounds the corners of the box */
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.order3 {
+    display: block;
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 100%;
+    /* Allows the whole section to use the available space */
+}
+
+/* 2. This targets ONLY the text word "Full name:" */
+.order3 label {
+    display: block;
+    /* Forces the input box to drop to the next line */
+    font-weight: bold;
+    font-size: 15px;
+    color: #0f172a;
+    margin-bottom: 8px;
+    /* Space between the word and the writing box */
+    margin-right: 300px;
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+}
+
+/* 3. This targets ONLY the actual writing text box */
+.order3 input[type="text"] {
+    display: block;
+    width: 100%;
+    /* Makes ONLY the writing box stretch nice and wide */
+    max-width: 500px;
+    /* Prevents the input box from getting too long */
+    height: 48px;
+    /* Gives it that nice chunky, clickable size */
+    padding: 0 14px;
+    /* Keeps your typing away from the left border edge */
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    /* This adds the border to the box, NOT the words */
+    border-radius: 8px;
+    /* Smoothly rounds the corners of the box */
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.order4 {
+    display: block;
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 100%;
+    /* Allows the whole section to use the available space */
+}
+
+/* 2. This targets ONLY the text word "Full name:" */
+.order4 label {
+    display: block;
+    /* Forces the input box to drop to the next line */
+    font-weight: bold;
+    font-size: 15px;
+    color: #0f172a;
+    margin-bottom: 8px;
+    /* Space between the word and the writing box */
+    margin-right: 300px;
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+}
+
+/* 3. This targets ONLY the actual writing text box */
+.order4 input[type="text"] {
+    display: block;
+    width: 100%;
+    /* Makes ONLY the writing box stretch nice and wide */
+    max-width: 500px;
+    /* Prevents the input box from getting too long */
+    height: 48px;
+    /* Gives it that nice chunky, clickable size */
+    padding: 0 14px;
+    /* Keeps your typing away from the left border edge */
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    /* This adds the border to the box, NOT the words */
+    border-radius: 8px;
+    /* Smoothly rounds the corners of the box */
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.order5 {
+    display: block;
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 100%;
+    /* Allows the whole section to use the available space */
+}
+
+/* 2. This targets ONLY the text word "Full name:" */
+.order5 label {
+    display: block;
+    /* Forces the input box to drop to the next line */
+    font-weight: bold;
+    font-size: 15px;
+    color: #0f172a;
+    margin-bottom: 8px;
+    /* Space between the word and the writing box */
+    margin-right: 300px;
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+}
+
+/* 3. This targets ONLY the actual writing text box */
+.order5 input[type="text"] {
+    display: block;
+    width: 100%;
+    /* Makes ONLY the writing box stretch nice and wide */
+    max-width: 500px;
+    /* Prevents the input box from getting too long */
+    height: 48px;
+    /* Gives it that nice chunky, clickable size */
+    padding: 0 14px;
+    /* Keeps your typing away from the left border edge */
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    /* This adds the border to the box, NOT the words */
+    border-radius: 8px;
+    /* Smoothly rounds the corners of the box */
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.payment{font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+  margin-right: 10px;
+    /* Allows the whole section to use the available space */
+}
+.expiry{
+    margin-right: 10px;
+    display: inline-block;
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    /* Allows the whole section to use the available space */
+}
+.cvv{
+    display: inline-block;
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-left: 45px;
+    /* Allows the whole section to use the available space */
+}
+.secndbox{background-color: #f0fdf4;  /* Perfect soft mint-green background from the screenshot */
+    border: 1px solid #bbf7d0;  /* Muted light green border accent line */
+    border-radius: 12px;        /* Smoothly rounded panel corners */
+    width: 100%;                /* Allows the box size to adapt naturally */
+    max-width: 420px;           /* Exact structural width of the notice box */
+    padding: 28px;              /* Spacing around the inside walls of the card */
+    margin-top: 20px;           /* Lines it up perfectly with your main form block */
+    box-sizing: border-box;     /* Keeps borders and padding inside the width limits */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+ }
+ .h3secndbox {
+    font-family: "Inter", "Geist Sans", "Segoe UI", sans-serif;
+    font-size: 20px;
+    color: #065f46;              /* Deep green text for strong readability */
+    line-height: 1.5;           /* Comfortable line spacing for reading */
+    margin: 0;      }            /* Resets default margins for clean layout */
+.layout{display: flex;             /* The magic engine that unlocks side-by-side layouts */
+    gap: 40px;                 /* Clear spacing between the left card and right card */
+    align-items: flex-start; }
+
+.btn-submit {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #15803d;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 4px 12px #166534
+}
+
+.btn-submit:hover {
+    background-color: #a3cfa4;
+}
+/*done w the order page css file*/
+/*feedbackform css file*/
+
+
