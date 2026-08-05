@@ -21,13 +21,13 @@
         <h1>Bakers Bastion</h1>
     </div>
 
-    <!-- Fixed invalid tag names to valid classes -->
+
     <p class="p1">Complete your order</p>
     <p class="p2">Please select items and payment details below</p>
     
     <div class="layout">
         <div class="boxcontainer">
-            <!-- Moved form outside the box container layout loop to keep tag closure nesting legal -->
+           
             <form action="feedbackform.html" method="GET">
                 <div class="box">
 
@@ -54,7 +54,7 @@
                         <input type="text" name="address" id="address">
                     </div>
                     
-                    <!-- Fixed space in class name to valid matching format -->
+                   
                     <div class="postal-code">
                         <label for="postalcode">Postal Code:</label>
                         <input type="number" name="postalcode" id="postalcode">
