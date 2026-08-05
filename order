@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Bakers Bastion</title>
-    <link rel="stylesheet" href="stylev.css">
+    <link rel="stylesheet" href="CSS/stylev.css">
 </head>
 
 <body>
@@ -57,7 +57,7 @@
                     <!-- Fixed space in class name to valid matching format -->
                     <div class="postal-code">
                         <label for="postalcode">Postal Code:</label>
-                        <input type="text" name="postalcode" id="postalcode">
+                        <input type="number" name="postalcode" id="postalcode">
                     </div>
                     
                     <div class="payment">
@@ -71,15 +71,15 @@
                     
                     <div class="cardnumber">
                         <label for="cardnumber">Card number:</label>
-                        <input type="text" name="cardnumber" id="cardnumber" placeholder="1234 5678 9012 3456">
+                        <input type="number" name="cardnumber" id="cardnumber" placeholder="1234 5678 9012 3456">
                     </div>
                     <div class="expiry">
                         <label for="expiry">Expiry date:</label>
-                        <input type="text" name="expiry" id="expiry" placeholder="MM/YY">
+                        <input type="number" name="expiry" id="expiry" placeholder="MM/YY">
                     </div>
                     <div class="cvv">
                         <label for="cvv">CVV:</label>
-                        <input type="text" name="cvv" id="cvv" placeholder="123">
+                        <input type="number" name="cvv" id="cvv" placeholder="123">
                     </div>
                     
                     <div class="submit">
