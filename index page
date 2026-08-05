@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>     
+    <title>Baker's Bastion</title>
+    <link rel="stylesheet" href="CSS/stylef.css">
+    <nav>
+            <a href="index.html">Home</a>
+            <a href="order.html">Order</a>
+            <a href="abt us.html">About Us</a>
+            <a href="products.html">Products</a>
+            <a href="contactus.html">Contact us</a>
+    </nav>
+</head>
+<body>   
+    <div class="container"> 
+        <img src="Images/logo.jpg" alt="Baker's Bastion Logo" style="width: 100px; display: inline; vertical-align: middle; margin-right: 25px; margin-bottom: 25px">
+        <h1 class="inline-brandname">Baker's Bastion</h1>
+        <h1 class="inline-brandslogan">Deliciousness in every bite!</h1>
+    </div>
+    <div class="section-one-divider"></div>
+    <div class="container"> 
+        <h2 class="category-h" style="color: rgb(35, 37, 38); margin-right: 0px; margin-bottom: 10px; font-size: 30px">Baker's Cake of the Day!</h2>
+            <a href="" class="category-i"> 
+                <img src="https://plus.unsplash.com/premium_photo-1672192166785-bdf23cd39734?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                 alt="Limited Meme cakes" style="width: 350px; margin-bottom: -15px"
+                 class="category-i-imgstyle">
+                <p style="text-align: center; margin-top: 8px; font-size: 25px; color: #c8505a;">Strawberry Stronghold Special</p>
+            </a>
+    </div>
+    <div class="section-two-divider"></div>
+        <br>
+        <div class="container">
+            <h2 class="category-h" style="color: rgb(35, 37, 38);">Categories</h2>
+            <a href="" class="category-i"> 
+                <img src="https://www.pngfind.com/pngs/m/38-385555_birthday-cake-png-image-purepng-free-transpa-cc0.png"
+                 alt="Limited Meme cakes"
+                 class="category-i-imgstyle">
+                <p style="text-align: center; margin-top: 8px;">Limited-time Offers</p>
+            </a>
+            <a href="" class="category-i">
+                <img src="https://www.pngmart.com/files/15/Creamy-Cake-Piece-PNG-Transparent-Image.png"
+                 alt="Local Delights"
+                 class="category-i-imgstyle">
+                <p style="text-align: center; margin-top: 8px;">Trending Flavours</p>
+            </a>
+            <a href="" class="category-i">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/049/667/358/small_2x/delicious-tiramisu-with-creamy-layers-and-cocoa-powder-topping-with-transparent-background-png.png"
+                 alt="Classics"
+                 class="category-i-imgstyle">
+                <p style="text-align: center; margin-top: 8px;">Classics</p>
+            </a>
+            <a href="" class="category-i">
+                <img src="https://static.vecteezy.com/system/resources/previews/048/093/865/non_2x/delicious-vanilla-cake-beautifully-decorated-with-fresh-berries-isolated-on-transparent-background-png.png"
+                 alt="Fruity Flavours"
+                 class="category-i-imgstyle">
+                <p style="text-align: center; margin-top: 8px;">Traditional Flavours</p>
+            </a>
+            <a href="" class="category-i">
+                <img src="https://png.pngtree.com/png-vector/20240914/ourlarge/pngtree-multilayer-delicious-birthday-cake-png-image_13392302.png"
+                 alt="Mix n' Match"
+                 class="category-i-imgstyle">
+                <p style="text-align: center; margin-top: 8px;">Mix n' Match</p>
+            </a>
+        </div>
+    </body>
+    <div class="footer-divider"></div>
+    <div class="container">
+        <img src="Images/logo.jpg" alt="Baker's Bastion Logo" style="width: 200px; display: inline-block; margin-bottom: -25px">
+    <p id="footer">© 2026 Baker's Bastion. All rights reserved.</p>
